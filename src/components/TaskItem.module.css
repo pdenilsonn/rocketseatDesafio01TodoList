@@ -1,0 +1,57 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    background: var(--gray-500);
+    padding: 1rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+.item div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.item p {
+    color: white;
+    font-size: 0.95rem;
+}
+
+.item .checkButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid var(--blue);
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 999px;
+    cursor: pointer;
+    
+
+}
+
+.item .checkedButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: var(--purple);
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 999px;
+    cursor: pointer;
+    
+}
+
+.item button {
+    background: none;
+    cursor: pointer;
+}
+
+
+
+.item .trash {
+    color: var(--gray-300);
+}
